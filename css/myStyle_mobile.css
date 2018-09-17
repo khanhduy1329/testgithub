@@ -1,0 +1,137 @@
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    .pad{
+        padding: 15px 15px 0 15px;
+    }
+    .hDescription{
+        float: right;
+        padding: 0;
+    }
+    .pull-right{
+        float: none!important;
+        padding-top: 15px;
+    }
+    .hSearch i {
+        padding: 19px 12px;
+    }
+    #banner .boxGroup{
+        height: auto;
+    }
+    /*banner
+     */
+    .text-banner{
+        top: 45%;
+    }
+    .text-banner p{
+        padding-right: 0;
+        font-size: 11px;
+        margin-right: -71px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .img-responsive{
+        width: 100%;
+        height: 200px!important;
+    }
+    /*  banner jcarousel    */
+    .bjcarousel-wrapper {
+        width: 100%;
+        height: 200px;
+    }
+    .bjcarousel img{
+        width: 100%;
+        height: 200px;
+    }
+    .bjcarousel-pagination {
+        top: 325px;
+    }
+    /** Carousel **/
+
+    .bjcarousel {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+    }
+    .bjcarousel-control-prev,
+    .bjcarousel-control-next {
+        top: 50%;
+        width: 0;
+        font: 30px/27px sans-serif;
+    }
+    .bjcarousel-wrapper .text-banner{
+        top: 6%;
+        left: 14%;
+        width: 55%;
+    }
+    /* end banner jcarousel    */
+    /* end banner    */
+
+    /*  content    */
+    #content{
+        padding-top: 0;
+    }
+
+    .functional-note{
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .content-middle{
+        padding: 0;
+    }
+    .latest-news{
+        margin: 10px 0 20px 0;
+    }
+    .cContent-m{
+        border-top: 1px solid;
+    }
+    .cContent-m p{
+        padding-top: 10px;
+    }
+    .fContent-m{
+        border-top: 1px solid;
+        padding-top: 20px;
+    }
+    .list-project .lp-jcarousel-pagination{
+        top:485px
+    }
+    .lp-jcarousel {
+        height: 417px!important;
+    }
+    lp-jcarousel-wrapper{
+        height: 420px!important;
+    }
+    .jcarousel-wrapper {
+        width: 290px!important;
+    }
+    .jcarousel {
+        width: 285px!important;
+    }
+    .jcarousel img{
+        border: none !important;
+    }
+    .content-right{
+        right: 0;
+        border-top: 1px solid;
+        padding: 0;
+    }
+    .content-right h3{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .nDocument h3{
+        font-size: 14px;
+        padding: 5px 15px 5px 15px;
+    }
+    .fVideo{
+        border-top: 1px solid white;
+    }
+    /* end content    */
+    #footer {
+        height: 80px;
+    }
+    #footer p{
+        line-height: 20px;
+        padding-top: 20px;
+    }
+}

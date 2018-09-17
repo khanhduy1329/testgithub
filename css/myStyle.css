@@ -1,0 +1,210 @@
+/* default */
+body{
+    background: #0a75c9;
+    color: white;
+}
+.boxGroup{
+    border: solid 2px white;
+}
+.pad{
+    padding: 25px 45px 0 45px;
+}
+.pad-0{
+    padding: 0;
+}
+.mar-0{
+    margin: 0;
+}
+p{
+    font-size: 14px;
+    margin: 0;
+}
+.fw-p p{
+    font-size: 16px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: darkorange;
+}
+ul{
+    list-style-type: none;
+}
+span{
+    font-style: italic;
+}
+h4{
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+}
+/* end default */
+/* header */
+#logoHeader{
+    width: 100px;
+    height: 50px;
+}
+#logoHeader p{
+    line-height: 45px;
+    text-align: center;
+}
+.hSearch {
+    position: relative;
+    float: right;
+}
+.hSearch input {
+    padding-left: 30px;
+    background: #8d8efc;
+    border: 1px solid gainsboro;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+.hSearch i {
+    position: absolute;
+    padding: 4px 12px;
+    pointer-events: none;
+}
+/* end header */
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+}
+
+.carousel-caption {
+    top: 140px;
+    bottom: auto;
+    text-align: left;
+    left: 15%;
+}
+.item .carousel-caption h1{
+    font-size: 50px!important;
+    font-weight: bold;
+    color: red;
+    text-shadow: none;
+}
+.item .carousel-caption p{
+    font-size: 20px;
+}
+
+
+#carousel-example-generic-1 img{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+#carousel-example-generic-1 .left {
+    left: -60px;
+    bottom: 20px;
+}
+#carousel-example-generic-1 .right {
+    bottom: 17px;right: -45px;
+}
+
+#carousel-example-generic-1 .carousel-inner{
+    padding-left: 25px;
+}
+/* content */
+#content{
+    padding:40px 0 50px 0;
+}
+.content-left .nav ul{
+    padding: 0 30px 20px 30px;
+}
+.functional-note{
+    padding-top: 30px
+}
+.functional-note span{
+    font-size: 18px;
+}
+.content-middle h2{
+    margin: 5px 0 10px 0;
+}
+.content-middle p{
+    font-size: 14px;
+}
+.box-image{
+    height: 205px;
+    position: relative;
+}
+.title-image P{
+    border: 3px solid gainsboro;
+    width: 40%;
+    height: 50px;
+    padding: 15px 0 0 15px;
+    position: absolute;
+    color: white;
+    left: 0;
+    z-index: 1;
+}
+.latest-news{
+    margin: 30px 0 40px 0;
+}
+.text-image{
+    padding: 15px 0 25px 0;
+}
+.nav-tabs li{
+    border: 1px solid white;
+    background: #0a75c9;
+}
+.content-right{
+    right: 15px;
+}
+.fVideo a{
+    float: right;
+}
+.fVideo{
+    padding-bottom: 30px;
+}
+.list-project .boxGroup{
+    height: 105px;
+    width: auto;
+}
+.list-project h4{
+    margin: 0 0 5px 0;
+}
+.list-project ul{
+    padding-left: 0!important;
+}
+.list-project li{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.nDocument{
+    padding-top: 0;
+}
+.nDocument a{
+    float: right;
+}
+.list-document .boxGroup{
+    height: 95px;
+}
+.list-document{
+    padding-top:10px;
+    padding-bottom: 10px    ;
+}
+.fVideo img{
+    width: 100%;
+    height: 192px;
+}
+.fVideo .lp-jcarousel-pagination{
+    top:240px;
+}
+/* end content */
+#footer {
+    background-color: rgba(36,56,106,0.95);
+    height: 50px;
+}
+#footer p{
+    text-align: center;
+    line-height: 45px;
+}
